@@ -2,58 +2,105 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Meu Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShitFlex</title>
+
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f4f4f4;
+      background-color: #ff8000;
     }
 
     header {
-      background-color: #333;
-      color: white;
-      padding: 15px;
+      background: linear-gradient(135deg, #3033f7, #1565c0);
+      color: rgb(0, 0, 0);
+      padding: 30px;
       text-align: center;
     }
 
     nav {
-      background-color: #555;
-      padding: 10px;
+      background-color: #64a0e4;
+      padding: 12px;
       text-align: center;
+      position: sticky;
+      top: 0;
     }
 
     nav a {
-      color: white;
+      color: rgb(0, 0, 0);
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
+      transition: 0.3s;
     }
 
     nav a:hover {
-      color: yellow;
+      color: rgb(255, 255, 255);
+      text-decoration: underline;
     }
 
     section {
-      padding: 20px;
+      padding: 25px;
       margin: 20px;
-      background-color: white;
+      background-color: rgb(255, 190, 129);
       border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    section:hover {
+      transform: scale(1.02);
     }
 
     h2 {
-      color: #333;
+      color: #000000;
+      margin-bottom: 10px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
     }
 
     footer {
-      background-color: #333;
+      background-color: #1565c0;
       color: white;
       text-align: center;
-      padding: 10px;
+      padding: 15px;
       margin-top: 20px;
+      font-size: 14px;
+    }
+
+    /* Botão voltar ao topo */
+    .topo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #3c3b3b;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .topo:hover {
+      background: black;
     }
   </style>
 </head>
+
 <body>
 
   <header>
@@ -70,21 +117,26 @@
   <section id="tecnologia">
     <h2>Tecnologia</h2>
     <p>A tecnologia está presente em tudo hoje: celulares, computadores, inteligência artificial e muito mais.</p>
+    <img src="https://via.placeholder.com/600x300" alt="Tecnologia">
   </section>
 
   <section id="musica">
     <h2>Música</h2>
     <p>A música faz parte da vida das pessoas, trazendo cultura, emoção e entretenimento.</p>
+    <img src="https://via.placeholder.com/600x300" alt="Música">
   </section>
 
   <section id="esportes">
     <h2>Esportes</h2>
     <p>Os esportes promovem saúde, competição e diversão, como futebol, basquete e corrida.</p>
+    <img src="https://via.placeholder.com/600x300" alt="Esportes">
   </section>
 
   <footer>
     <p>© 2026 Meu Site</p>
   </footer>
+
+  <a href="#" class="topo">↑ Topo</a>
 
 </body>
 </html>
