@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Catálogo de Motos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    img{
+      width: 125px;
+      
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      display: flex;
+    }
+
+    nav {
+      background-color: #b31f1f;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 10px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <img src="https://i.pinimg.com/736x/76/16/ed/7616ed50e5a0d06567b1663f9f0ab3bc.jpg">
+  <h1> Catálogo de Motos</h1>
+  
+</header>
+
+<nav>
+  <a href="#honda">Honda</a>
+  <a href="#yamaha">Yamaha</a>
+  <a href="#shineray">Shineray</a>
+</nav>
+
+<div class="container">
+
+  <div id="honda" class="card">
+    <h2>Honda</h2>
+    <p>A Honda é conhecida pela confiabilidade e economia. Ideal para o dia a dia.</p>
+    <ul>
+      <li>CG 160</li>
+      <li>Biz 125</li>
+      <li>XRE 300</li>
+    </ul>
+    <A href="https://www.honda.com.br/"><button> Ver Mais</button></A>
+  </div>
+
+  <div id="yamaha" class="card">
+    <h2>Yamaha</h2>
+    <p>A Yamaha combina desempenho com design moderno. Ótima para quem gosta de esportividade.</p>
+    <ul>
+      <li>Factor 150</li>
+      <li>Fazer 250</li>
+      <li>Lander 250</li>
+    </ul>
+    <A href="https://www.yamaha-motor.com.br/"><button> Ver Mais</button></A>
+  </div>
+
+  <div id="shineray" class="card">
+    <h2>Shineray</h2>
+    <p>Uma opção acessível e prática, perfeita para quem quer economizar.</p>
+    <ul>
+      <li>Jet 125</li>
+      <li>SHI 175</li>
+      <li>Worker 125</li>
+    </ul>
+    <A href="https://www.shineray.com.br/"><button> Ver Mais</button></A> 
+ 
+
+  </div>
+
+</div>
+
+<footer>
+  <p>Motos sertão central PJ</p>
+</footer>
+
+</body>
+</html>
