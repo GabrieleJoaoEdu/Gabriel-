@@ -1,6 +1,33 @@
- body{
+  h1{
+        color:  rgb(60, 87, 175);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    font-size:  20px;
+}
+  header{
+    background-color: rgb(60, 87, 175);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    width: 150px;
+
+
+}
+footer{
+    background-color: rgb(60, 87, 175);
+    padding: 45px;
+}
+
+  body{
       font-family: Arial, sans-serif;
-      background-color: #f2f6fc;
+      background-color: #991616;
       margin: 0;
       padding: 0;
     }
@@ -8,13 +35,12 @@
     .container{
       width: 90%;
       max-width: 400px;
-      background-color: white;
+      background-color: rgb(255, 255, 255);
       margin: 50px auto;
       padding: 25px;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
-
     h2{
       text-align: center;
       color: #1e3a5f;
@@ -23,7 +49,7 @@
 
     label{
       font-weight: bold;
-      color: #333;
+      color: #000000;
       display: block;
       margin-bottom: 5px;
     }
@@ -31,10 +57,24 @@
     input[type="text"],
     input[type="email"],
     input[type="password"]{
-      width: 100%;
+      width: 60%;
       padding: 10px;
       margin-bottom: 15px;
-      border: 1px solid #1e88e5;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box;
+      font-size: 15px;
+    }
+     input{
+      text-align: center;
+      color: #1e3a5f;
+      margin-bottom: 20px;
+    }
+    input[type="outro"]{
+      width: 60%;
+      padding: 10px;
+      margin-bottom: 25px;
+      border: 1px solid #ccc;
       border-radius: 8px;
       box-sizing: border-box;
       font-size: 15px;
@@ -42,40 +82,33 @@
 
     .opcoes{
       margin-bottom: 15px;
-      color: #444;
+      color: ws#f16161;
     }
 
     .opcoes input{
       margin-right: 5px;
     }
+    
 
     button{
-      width: 100%;
-      background-color: #1e88e5;
+      width: 40%;
+      background-color: rgb(60, 87, 175);
       color: white;
       border: none;
       padding: 12px;
       border-radius: 8px;
       font-size: 16px;
       cursor: pointer;
+      margin: 0%;
     }
-
+    button{
+      text-align:center;
+      color: #1e3a5f;
+      margin-bottom: 30px;
+    }
     button:hover{
       background-color: #1565c0;
     }
-    .botao {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-bottom: 15px;
-  background-color: #1e88e5;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 16px;
-}
-  .botao input{
-      margin-right: 5px;
+    form{
+        text-align:center;
     }
-.botao:hover {
-  background-color:#1e88e5;
-}

@@ -2,13 +2,13 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Formulário Simples</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>ShitFlex</title>
   <link rel="stylesheet" href="inicio.css">
 </head>
 <body>
-
-  <h2>Cadastro</h2>
-
+<header> Cadastro</header>
   <form>
     <label>Nome:</label><br>
     <input type="text" name="nome" required ><br><br>
@@ -17,20 +17,24 @@
     <input type="email" name="email" required><br><br>
 
     <label>Senha:</label><br>
-    <input type="password" name="senha"><br><br>
+    <input type="password" name="senha" required><br><br>
 
     <label>Gênero:</label><br>
-    <input type="radio" name="genero"> Masculino
+    <input type="radio" name="genero"> Masculino<br><br>
     <input type="radio" name="genero"> Feminino<br><br>
 
-    <label>Interesses:</label><br>
+    <label>Dominíos:</label><br>
     <input type="checkbox"> Tecnologia
     <input type="checkbox"> Esporte
-    <input type="checkbox"> Música<br><br>
+    <input type="checkbox"> Música
+    <input type="checkbox"> Outro
+     <label>Qual?</label><br>
+    <input type="outro" name="outro"><br><br>
 
     <button type="submit">Enviar</button>
+    
   </form>
-  <a href="login.html"class="botao">Já tem um login?</a>
+
  
 </body>
 </html>
