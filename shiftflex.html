@@ -3,38 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ShitFlex</title>
+   <link rel="stylesheet" href="shiftflex.css">
+   <header>
+     <title>ShitFlex</title>
+     </header>
 
-  <style>
-    * {
+     <style>
+     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-    }
+     }
 
     html {
       scroll-behavior: smooth;
-    }
+     }
 
     body {
       font-family: Arial, sans-serif;
       background-color: #ff8000;
-    }
+     }
 
     header {
-      background: linear-gradient(135deg, #3033f7, #1565c0);
+      background: linear-gradient(135deg, #ff9100, #2600ff);
       color: rgb(0, 0, 0);
       padding: 30px;
       text-align: center;
-    }
+     }
 
     nav {
-      background-color: #64a0e4;
+      background-color: #ff8000;
       padding: 12px;
       text-align: center;
       position: sticky;
       top: 0;
-    }
+     }
 
     nav a {
       color: rgb(0, 0, 0);
@@ -42,45 +45,39 @@
       text-decoration: none;
       font-weight: bold;
       transition: 0.3s;
-    }
+     }
 
     nav a:hover {
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
       text-decoration: underline;
-    }
+     }
 
     section {
       padding: 25px;
       margin: 20px;
-      background-color: rgb(255, 190, 129);
+      background-color: rgb(240, 157, 80);
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       transition: transform 0.2s;
-    }
+     }
 
     section:hover {
       transform: scale(1.02);
-    }
+     }
 
     h2 {
       color: #000000;
       margin-bottom: 10px;
-    }
-
-    img {
-      width: 100%;
-      border-radius: 10px;
-      margin-top: 10px;
-    }
+     }
 
     footer {
       background-color: #1565c0;
-      color: white;
+      color: rgb(0, 0, 0);
       text-align: center;
       padding: 15px;
       margin-top: 20px;
       font-size: 14px;
-    }
+     }
 
     /* Botão voltar ao topo */
     .topo {
@@ -93,11 +90,11 @@
       border-radius: 50px;
       text-decoration: none;
       font-size: 14px;
-    }
+     }
 
     .topo:hover {
       background: black;
-    }
+     }
   </style>
 </head>
 
@@ -105,21 +102,26 @@
 
   <header>
     <h1>ShitFlex</h1>
-    <pA tecnologia está presente em tudo hoje: celulares, computadores, inteligência artificial e muito mais.</p>
-        <img src="https://i0.wp.com/blog.portaleducacao.com.br/wp-content/uploads/2022/02/365-O-que-e%CC%81-tecnologia_.jpg?fit=1200%2C675&ssl=1" alt="Tecnologia">
+    <nav>
+    <a href="#tecnologia">Tecnologia</a>
+    <a href="#agronegocio">Agronegocio</a>
+    <a href="#esportes">Esportes</a>
+  </nav>
+
+      <section id="tecnologia">
+        <h2>Tecnologia</h2>
+        <p>A tecnologia está presente em tudo hoje: celulares, computadores, inteligência artificial e muito mais.</p>
+        <A href="https://www.unifaa.edu.br/blog/tecnologia-e-mercado-de-trabalho"></href><button>Ver mais </button></A>
       </section>
-    
       <section id="agronegocio">
         <h2>Agronegocio</h2>
-        <p>O agronegocio faz parte da vida das pessoas, trazendo cultura, emoção e entretenimento.</p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5lvzcSXOcN-O4wUAFUima3gExX6wfSKnbHTaWzeROvSIpRRqhS5uG_TVBag&s" alt="Música">
+        <p>O agronegocio faz parte da vida das pessoas, trazendo cultura, emoção e entretenimento.</p> 
+        <A href="https://www.unicesumar.edu.br/blog/gestao-do-agronegocio/"></href><button>Ver mais </button></A>      
       </section>
-    
       <section id="esportes">
         <h2>Esportes</h2>
         <p>Os esportes promovem saúde, competição e diversão, como futebol, basquete e corrida.</p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhGfI6kQSjwhMZ8pMLobSGShjnwlTRGWhuZAfrrInxbY7orrEFP7RUz3KGVw&s" alt="Esportes">
-        <A href="https://ensin-e.edu.br/mercado-de-educacao-fisica/"><button>Ver mais </button></A>
+        <A href="https://ensin-e.edu.br/mercado-de-educacao-fisica/"></href><button>Ver mais </button></A>
       </section>
     
       <footer>
@@ -129,15 +131,5 @@
       <a href="#" class="topo">↑ Topo</a>
     
     </body>
-    </html>>Tecnologia, Música e Esportes</p>
   </header>
-
-  <nav>
-    <a href="#tecnologia">Tecnologia</a>
-    <a href="#agronegocio">Agronegocio</a>
-    <a href="#esportes">Esportes</a>
-  </nav>
-
-  <section id="tecnologia">
-    <h2>Tecnologia</h2>
-    <p>  </section>
+  
