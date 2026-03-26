@@ -21,13 +21,13 @@ width: 150px;
 
 }
 footer{
-background-color: rgb(76, 112, 231);
+background-color: rgb(43, 40, 223);
 padding: 45px;
 }
 
 body{
   font-family: Arial, sans-serif;
-  background-color: #ffa846;
+  background-color: #ff5e00;
   margin: 0;
   padding: 0;
 }
@@ -43,7 +43,7 @@ body{
 }
 h2{
   text-align: center;
-  color: #006eff;
+  color: #220de4;
   margin-bottom: 20px;
 }
 
@@ -105,7 +105,7 @@ button{
   text-align:center;
   background-color: #4161ec;
   color: #8ebbf7;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 button:hover{
   background-color: #1565c0;
