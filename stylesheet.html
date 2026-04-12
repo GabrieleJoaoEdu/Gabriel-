@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cassino Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎰 Cassino Online</h1>
+    <nav>
+        <a href="#">início</a>
+        <a href="#">jogos</a>
+        <a href="#">blackjack</a>
+        <a href="#">contato</a>
+    </nav>
+</header>
+
+<section class="banner">
+    <h2>Bem-vindo ao melhor cassino!</h2>
+</section>
+
+<section class="slot">
+
+    <div class="card">
+        <h1>🎰 Slot Machine</h1>
+        <p>Tente sua sorte!</p>
+    </div>
+
+    <div class="mesa">
+        <div class="area">
+            <div class="maquina">
+                <div class="rolo" id="r1">🍒</div>
+                <div class="rolo" id="r2">🍋</div>
+                <div class="rolo" id="r3">🍊</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="botoes">
+        <button onclick="girar()">Girar</button>
+    </div>
+
+    <h4 id="resultado"></h4>
+    <div class="apostas">
+
+    <h3>💰 Saldo: <span id="saldo">1000</span></h3>
+
+    <div class="fichas">
+        <button onclick="apostarSlot(10)" class="ficha ficha-10">10</button>
+        <button onclick="apostarSlot(50)" class="ficha ficha-50">50</button>
+        <button onclick="apostarSlot(100)" class="ficha ficha-100">100</button>
+    </div>
+
+    <h3>🎯 Aposta: <span id="apostarSlot">0</span></h3>
+
+</div>
+
+</section>
+
+
+<section class="blackjack">
+ <div class="card">
+        <h1>🃏 Blackjack</h1>
+        <p>Desafie o dealer!</p>
+ </div>
+</section>
+
+<section class="blackjack">
+
+    <div class="mesa">
+        <div class="area dealer">
+            <h3>Dealer</h3>
+            <div id="dealer-cartas" class="cartas"></div>
+            <p>Soma: <span id="dealer-soma">0</span></p>
+        </div>
+
+        <div class="area player">
+            <h3>Você</h3>
+            <div id="player-cartas" class="cartas"></div>
+            <p>Soma: <span id="player-soma">0</span></p>
+        </div>
+    </div>
+
+    <div class="botoes">
+        <button onclick="comprar()">Comprar</button>
+        <button onclick="parar()">Parar</button>
+        <button onclick="iniciarJogo()">Novo Jogo</button>
+    </div>
+
+    <h4 id="resultadoBJ"></h4>
+</section>
+<div class="apostas">
+    <p>💰 Saldo:<span id="apostaBJ">0</span></p>
+
+    <div class="fichas">
+        <button onclick="apostarBJ(10)">+10</button>
+        <button onclick="apostarBJ(10)">+50</button>
+        <button onclick="apostarBJ(100)">+100</button>
+    </div>
+
+    <p>🎯 Aposta atual: <span id="apostaBJ">0</span></p>
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
