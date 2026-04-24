@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <h1> Meu Site</h1>
+        <p> Meu site sobre div e class</p>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html"> link</a>
+        <a href="index.html"> link</a>
+        <a href="index.html"> link</a>
+        <a href="index.html"> link</a>
+    </nav>
+
+    <section class="texto1">
+<h2>Titulo 01</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos iure libero voluptatum, optio minus placeat sapiente recusandae aliquam ex quaerat voluptatibus rem praesentium, fugit maxime. Natus quae enim error veritatis.</p>
+
+
+
+    </section>
+
+    <section class=" texto2">
+    <h2> Titulo 02</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi qui, ut doloremque quos, cupiditate obcaecati, exercitationem vero cumque vel alias ducimus suscipit eligendi voluptas itaque perspiciatis fugit in rem impedit?</p>
+
+
+    </section>
+</body>
+</html>
