@@ -1,0 +1,22 @@
+body{
+    margin: 0%;
+}
+.topo{
+    background-color: rgb(92, 97, 78);
+    color: black;
+    text-align: center;
+}
+
+.menu{
+    background-color: rgb(127, 153, 54);
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.texto1{
+    width: 50%;
+    float: left;
+}
