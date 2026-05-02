@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrinho - TechCore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>TechCore</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="perifericos.html">Periféricos</a>
+        <a href="pecas.html">Peças Internas</a>
+        <a href="carrinho.html">Carrinho</a>
+    </nav>
+</header>
+
+<section class="carrinho-completo">
+    <h2>🛒 Seu Carrinho Completo</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-carrinho">
+        </tbody>
+    </table>
+
+    <h3 id="total">Total: R$ 0,00</h3>
+
+    <button class="btn" onclick="finalizarCompra()">Finalizar Compra</button>
+    <button class="btn" onclick="limparCarrinho()">Limpar Carrinho</button>
+
+    <br><br>
+    <a href="index.html" class="btn">⬅ Continuar comprando</a>
+</section>
+
+
+<script>
+let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+
+function atualizarCarrinho() {
+    let tabela = document.getElementById("tabela-carrinho");
+    let total = document.getElementById("total");
+
+    tabela.innerHTML = "";
+    let soma = 0;
+
+    carrinho.forEach((item, index) => {
+        soma += item.preco;
+
+        let tr = document.createElement("tr");
+        tr.innerHTML = `
+            <td>${item.nome}</td>
+            <td>R$ ${item.preco.toFixed(2)}</td>
+            <td><button onclick="removerItem(${index})">❌</button></td>
+        `;
+        tabela.appendChild(tr);
+    });
+
+    total.innerText = "Total: R$ " + soma.toFixed(2);
+}
+
+function removerItem(index) {
+    carrinho.splice(index, 1);
+    salvarCarrinho();
+}
+
+function limparCarrinho() {
+    carrinho = [];
+    salvarCarrinho();
+}
+
+function finalizarCompra() {
+    if (carrinho.length === 0) {
+        alert("Carrinho vazio!");
+        return;
+    }
+
+    alert("Compra finalizada com sucesso!");
+    carrinho = [];
+    salvarCarrinho();
+}
+
+function salvarCarrinho() {
+    localStorage.setItem("carrinho", JSON.stringify(carrinho));
+    atualizarCarrinho();
+}
+
+atualizarCarrinho();
+</script>
+
+</body>
+</html>
