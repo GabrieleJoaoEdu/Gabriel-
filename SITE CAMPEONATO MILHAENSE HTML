@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="qualquercoisa.css">
+</head>
+<body>
+
+    <header class="topo">
+     <a href="#">Logo</a>
+<h1>CAMPEONATO MILHÃENSE </h1>
+     <ul class="menu">
+     <li><a href="index.html" >INÍCIO</a></li>
+     <li><a href="regulamento.html" >REGULAMENTO</a></li>
+     <li><a href="times.html" >TIMES</a></li>
+     <li><a href="chaveamento.html" >CHAVEAMENTO</a></li>
+     </ul>
+
+    </header>
+<h1>FUTSAL MILHÃENSE</h1>
+<img class= "imagens" src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHsFSc6OC9btOD0EnJL9uLQ7J-uMe1FjXZqculz76DQyLdbpjxNj2kwEPkvVNWQz4Pm51h_LdTjAAjj-TrwvLRmq-3CbLvN0q6snwPPpXbstHvbunGiRn7XNhZ11ei7TmsAr1oR=w243-h174-n-k-no-nu">
+<p> O Campeonato Milhaense de Futsal consolidou-se como um dos eventos esportivos mais tradicionais e aguardados no município de Milhã, situado no coração do Sertão Central do Ceará. Mais do que uma simples competição, o evento funciona como uma grande celebração do esporte local, promovendo a integração social e reunindo equipes tanto da sede quanto da zona rural.A competição é um marco no calendário esportivo da região, atraindo um grande público aos ginásios, especialmente à Quadra do Bairro Bom Acerto, onde frequentemente ocorrem as partidas decisivas. O campeonato envolve times de destaque, como o Barcelona (frequentemente presente nas finais, consolidando-se como força local), Irmandade de Carnaubinha, Bayern de Fátima, Cearamor Futsal, entre outros, elevando o nível técnico e a competitividade do futsal milhaense.Com o apoio da Secretaria de Esporte e da Prefeitura de Milhã, o campeonato frequentemente integra as comemorações do aniversário de emancipação política do município, movimentando a economia local e incentivando a prática esportiva entre jovens e adultos. Além da categoria principal masculina, o torneio também valoriza o futsal feminino e categorias de base, reafirmando o compromisso com o esporte inclusivo.Os jogos são caracterizados pela alta competitividade, com arbitragem dedicada e premiações que valorizam não apenas o campeão, mas também destaques individuais como artilheiros e goleiros menos vazados.</p>
+
+</body>
+</html>
