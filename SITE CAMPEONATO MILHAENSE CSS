@@ -1,0 +1,41 @@
+body{
+    margin: 0%;
+    padding: 0px;
+}
+
+.topo{
+    background-color: rgb(5, 77, 36);
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: white;
+}
+
+.topo a{
+    color: rgb(252, 231, 49);
+    text-decoration: none;
+    margin: 15px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+  color:rgb(5, 77, 36);
+  margin: 10px;
+
+
+}
+
+.topo h1{
+    margin-left: 200px;
+}
+.imgens{
+width: 200px;
+height: 150px;
+
+}
+  
+    
+    
